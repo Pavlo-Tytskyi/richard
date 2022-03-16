@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gothic A1', sans-serif;
+}
+.box{
+    height: 970px;
+    width: 100%;
+    background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%), #CF0063;
+   
+}
+.header{
+    background-image: url(/img/bg/main_bg.png);
+    height: 652px;
+    min-width: 682px;
+    float: right;
+    margin-top: 121px;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+nav{
+    display: flex;
+    padding: 2% 10%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 120px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+nav-links ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.box-section{
+    padding: 2% 10%;
+    margin-top: 198px;
+    color: #fff;
+    line-height: 80px
+}
+.title{
+    font-size: 80px;  
+}
+.box-section__text {
+    font-size: 30px;
+    margin-top: 10px;
+}
+.box-section__btn{
+    width: 170px;
+    height: 66px;
+    background-color: #FC0A7E;
+    color: #fff;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+.suptitle{
+    text-align: center;
+    background-color: #1B1B1B;
+    height: 957px;
+    width: 100%;
+}
+.suptitle__text{
+    padding-top: 100px;
+    color: #A8A8A8;
+    font-size: 16px;
+    line-height: 20px;
+}
+.suptitle__title{ 
+    margin-top: 25px;
+    font-size: 38px;
+    line-height: 48px;  
+    color: #FFFFFF;
+}
+.suptitle__img{
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 657px;
+    margin-top: 55px;
+}
+/* .container{
+    display: flex;
+} */
+.content{
+    margin-top: 259px;
+    display:inline-block;
+    vertical-align:middle;
+}
+.content__title-text{
+    margin-top: 25px;
+}
+.content__text{
+    margin-top: 22px;
+}
+.img-1{
+   
+    background-image: url(/img/content/1.png);
+    height: 652px;
+    min-width: 682px;
+    float: right;
+    margin-top: 121px;
+    background-repeat: no-repeat;
+
+}
