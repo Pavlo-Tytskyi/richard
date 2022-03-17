@@ -1,18 +1,21 @@
-*{
+* {
     padding: 0;
-    margin: 0; 
+    margin: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: 'Gothic A1', sans-serif;
+    font-weight: 400;
 }
-.box{
+
+.box {
     height: 970px;
     width: 100%;
     background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%), #CF0063;
-   
 }
-.header{
+
+.header {
     background-image: url(/img/bg/main_bg.png);
     height: 652px;
     min-width: 682px;
@@ -20,45 +23,53 @@ body{
     margin-top: 121px;
     background-repeat: no-repeat;
     background-size: cover;
-   
 }
-nav{
+
+nav {
     display: flex;
     padding: 2% 10%;
     justify-content: space-between;
     align-items: center;
 }
-nav img{
+
+nav img {
     width: 120px;
 }
-.nav-links{
+
+.nav-links {
     flex: 1;
     text-align: right;
 }
-nav-links ul li{
+
+nav-links ul li {
     list-style: none;
     display: inline-block;
     padding: 8px 12px;
     position: relative;
 }
-nav-links ul li a{
+
+nav-links ul li a {
     text-decoration: none;
     color: #fff;
 }
-.box-section{
+
+.box-section {
     padding: 2% 10%;
     margin-top: 198px;
     color: #fff;
     line-height: 80px
 }
-.title{
-    font-size: 80px;  
+
+.title {
+    font-size: 80px;
 }
+
 .box-section__text {
     font-size: 30px;
     margin-top: 10px;
 }
-.box-section__btn{
+
+.box-section__btn {
     width: 170px;
     height: 66px;
     background-color: #FC0A7E;
@@ -67,51 +78,169 @@ nav-links ul li a{
     border: none;
     cursor: pointer;
 }
-.suptitle{
+
+.suptitle {
     text-align: center;
     background-color: #1B1B1B;
     height: 957px;
     width: 100%;
+    font-weight: 400;
 }
-.suptitle__text{
+
+.suptitle__text {
     padding-top: 100px;
     color: #A8A8A8;
     font-size: 16px;
     line-height: 20px;
+    font-weight: 400;
 }
-.suptitle__title{ 
+
+.suptitle__title {
     margin-top: 25px;
     font-size: 38px;
-    line-height: 48px;  
+    line-height: 48px;
     color: #FFFFFF;
+    font-weight: 400;
 }
-.suptitle__img{
+
+.suptitle__img {
     background-repeat: no-repeat;
     width: 100%;
     height: 657px;
-    margin-top: 55px;
+    margin-top: 60px;
 }
+
+
 /* .container{
     display: flex;
 } */
-.content{
+
+.content {
     margin-top: 259px;
-    display:inline-block;
-    vertical-align:middle;
+    display: inline-block;
+    vertical-align: middle;
 }
-.content__title-text{
+
+.content__title-text {
     margin-top: 25px;
 }
-.content__text{
+
+.content__text {
     margin-top: 22px;
 }
-.img-1{
-   
+
+.img-1 {
     background-image: url(/img/content/1.png);
     height: 652px;
     min-width: 682px;
     float: right;
     margin-top: 121px;
     background-repeat: no-repeat;
+}
+.holder{
+ margin-top: 80px;
+}
+.id1 {
+    float: right;
+    padding-right: 25%;
+}
 
+.id2 {
+    font-size: 18px;
+    padding-left: 25%;
+}
+.col__suptitle {
+    padding-top: 269px;
+    text-transform: uppercase;
+    color: #A8A8A8;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+}
+.col__title {
+    margin-top: 50px;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 48px;
+}
+.col__text {
+    margin-top: 22px;
+    font-weight: 400;
+    color: #6B6B6B;
+    font-size: 16px;
+    line-height: 30px;
+}
+.id3 {
+    float: left;
+    padding-left: 24%;
+    margin-top: 160px;
+}
+
+.id4 {
+    font-size: 18px;
+    padding-left: 60%;
+    margin-top: -134px;
+}
+.col__inner-1{
+    margin-top: 365px;
+    
+}
+.col__suptitle-1{
+    margin-top: 288px;
+    text-transform: uppercase;
+    color: #A8A8A8;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+   
+}
+.col__title-2 {
+    margin-top: 45px;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 48px;
+
+}
+.col__text-3 {
+    margin-top: 27px;
+    font-weight: 400;
+    color: #6B6B6B;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 131px;
+}
+.id5 {
+    float: right;
+    padding-right: 25%;
+    margin-top: 160px;
+}
+
+.id6 {
+    font-size: 18px;
+    padding-left: 25%;
+}
+.col__suptitle {
+    padding-top: 269px;
+    text-transform: uppercase;
+    color: #A8A8A8;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+}
+.col__title {
+    margin-top: 50px;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 48px;
+}
+.col__text {
+    margin-top: 22px;
+    font-weight: 400;
+    color: #6B6B6B;
+    font-size: 16px;
+    line-height: 30px;
+}
+.activity{
+    display: flex;
+    margin-top: 159px;
 }
