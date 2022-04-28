@@ -16,7 +16,7 @@ body {
 }
 
 .header {
-    background-image: url(../img/bg/main_bg.png);
+    background: url(../img/bg/main_bg.png);
     height: 652px;
     min-width: 682px;
     float: right;
